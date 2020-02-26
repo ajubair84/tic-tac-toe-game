@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="e2e_tests.logIn"
+    errors="0" failures="0" hostname="" id="" package="e2e_tests" skipped="0"
+    tests="5" time="7.690" timestamp="">
+  
+    <testcase name="Validate URL" classname="e2e_tests.logIn" time="0.09600" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click Login Button and Verify Page Header" classname="e2e_tests.logIn" time="0.8450" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify login page URL" classname="e2e_tests.logIn" time="0.007000" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Login With a valid account" classname="e2e_tests.logIn" time="0.2660" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify it redirects after login to game page" classname="e2e_tests.logIn" time="6.476" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
