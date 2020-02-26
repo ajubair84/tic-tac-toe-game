@@ -1,5 +1,3 @@
 *.log
 node_modules
-chromedriver.log
-selenium-server.log
 tests_output
