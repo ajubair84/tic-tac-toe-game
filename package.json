@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "all_tests": "nightwatch -e chrome --tags=regression --skiptags=quarantineregression"
+        "all_tests": "nightwatch -e chrome --tags=regression, --skiptags=quarantineregression"
     },
     "devDependencies": {
         "chromedriver": "^80.0.1",

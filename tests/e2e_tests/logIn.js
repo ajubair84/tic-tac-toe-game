@@ -45,7 +45,7 @@
     'Verify it redirects after login to game page': browser => {
       header(browser)
         .assert.urlEquals(`${basePath}${gamePagePath}`)
-        .waitForElementVisible('@pageTitleH1')
+        .waitForElementVisible('@pageTitleH1', 9000)
         .expect.element('@pageTitleH1').text.to.equals('Broken (on purpose) Tic Tac Toe')
       },
   }
