@@ -1,3 +1,5 @@
 *.log
 node_modules
 tests_output
+*.jar
+package-lock.json
