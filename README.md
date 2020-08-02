@@ -6,3 +6,28 @@
 
 # Youtube Video Link (Overview of Automation Framework and Tests Using Nightwatch.js)
 - https://youtu.be/bIR012aRThY
+
+
+  "test_settings": {
+    "default": {
+      "globals": {
+        "waitForConditionTimeout": 30000,
+        "waitForConditionPollInterval": 100
+      },
+      "launch_url": "${LAUNCH_URL}",
+      "silent": true,
+      "screenshots": {
+        "enabled": false,
+        "path": ""
+      },
+      "webdriver.username": "${SAUCE_USERNAME}",
+      "webdriver.access_key": "${SAUCE_ACCESS_KEY}",
+      "desiredCapabilities": {
+        "autoAcceptAlerts": true,
+        "browserName": "Browser",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "avoidProxy": true,
+        "build": "Build: ${BUILD_NUMBER} Branch: ${BRANCH_NAME} - ${TYPE}"
+      }
+    },

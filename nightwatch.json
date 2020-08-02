@@ -21,6 +21,31 @@
             "acceptSslCerts": true,
             "use_xpath": true
         }
+    },
+    "saucelabs_win10_chrome": {
+      "request_timeout_options": {
+        "timeout": 900000
+      },
+      "globals": {
+        "waitForConditionTimeout": 60000,
+        "waitForConditionPollInterval": 100
+      },
+      "selenium_port": 80,
+      "selenium_host": "ondemand.saucelabs.com",
+      "selenium": {
+        "port": 80,
+        "host": "ondemand.saucelabs.com"
+      },
+      "webdriver.username": "${SAUCE_USERNAME}",
+      "webdriver.access_key": "${SAUCE_ACCESS_KEY}",
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "version": "81.0",
+        "platform": "Windows 10",
+        "javascriptEnabled": true,
+        "recordMp4": true,
+        "screenResolution": "1920x1200"
+      }
     }
   }
 }
